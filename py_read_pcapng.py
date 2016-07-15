@@ -12,7 +12,7 @@ for count, elem in enumerate(capfile.packets):
 	for elem1 in temp_str:
 		temp.append(elem1);
 	temp_str = ":".join(map(str, temp_str));
-	temp_str= temp_str[:-1];
+	#temp_str= temp_str[:-1];
 	data.append(temp_str);
 	temp_length = elem.capture_len;
 	#print "Data is " + temp_str[64:]
